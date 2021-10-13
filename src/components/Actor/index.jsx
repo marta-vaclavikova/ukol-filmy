@@ -1,10 +1,11 @@
 import React from 'react';
+import './style.css';
 
 const Actor = ({name, as}) => (
-    <>
-    <h5>{name}</h5>
+    <div className="actor">
+    <b>{name}</b>
     <div>as {as}</div>
-    </>
+    </div>
 );
 
 export default Actor;

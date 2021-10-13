@@ -1,0 +1,43 @@
+.movie {
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 0.5em; 
+    padding: 20px;
+    border: 1px solid lightgray;
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie-text {
+    text-align: left;
+}
+.movie-text h4, .movie-text h5 {
+    color: tomato;
+}
+.movie-text h4 {
+    margin-bottom: 10px;
+}
+.movie-text h5 {
+    margin-bottom: 5px;
+}
+.cast {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    font-size: small; 
+}
+
+.rating {
+    margin: 0;
+    padding: 0;
+    background: orange;
+    color:white;
+    padding:0.1em 0;
+    position: absolute;
+    transform: translateX(-40%) translateY(-40%) rotate(320deg);
+    width: 45px;
+    font-size: 0.9em;
+  }
+
